@@ -1,0 +1,90 @@
+@import url('res/futurastd-medium.css');
+
+html, body {
+	color: #fff;
+	height: 100%;
+	width: 100%;
+}
+
+.cont {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height:100%;
+}
+
+#wrap {
+	margin-top: 10%;
+	width: 500px;
+	max-height: 65%;
+	background: rgba(0,0,0,.8);
+	color: white;
+	overflow-y: scroll;
+	border-radius: 3px;
+	box-shadow: 0 0 5px black, 0 0 10px rgb(63, 63, 63);
+	position: relative;
+}
+
+table {
+	text-align: center;
+}
+
+th, td {
+	
+}
+
+th {
+	border-right: 2px solid black;
+}
+
+th:last-of-type {
+	border-right: none;
+}
+
+tr {
+	font-family: 'Segoe UI';
+}
+
+tr.heading {
+	border-bottom: 2px solid rgb(122, 100, 219);
+	height: 25px;
+	background: rgba(0,0,0,1) !important;
+	font-weight: bold;
+}
+
+tr.heading th {
+	padding-top: 3px;
+}
+
+tr:nth-of-type(2) th {
+	padding-top: 3px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.top-box {
+	background: rgba(0,0,0,.8);
+	width: 125px;
+   	margin-left: 5px;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 0 0 5px black, 0 0 10px rgb(63, 63, 63);
+}
+
+.top-box th, .top-box td {
+	padding: 4px;
+}
+
+.left-stats table {
+	margin-bottom: 15px;
+}
+
+.left-stats {
+	margin-top: 10%;
+}
+
+.top-box .heading{
+	border-bottom: 2px solid rgb(139, 243, 21);
+}
